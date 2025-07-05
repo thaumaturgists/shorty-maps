@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="Permissions-Policy" content="*=(), geolocation=(), microphone=(), camera=(), fullscreen=(), payment=(), notifications=(), push=(), midi=(), sync-xhr=(), screen-wake-lock=(), ambient-light-sensor=(), accelerometer=(), gyroscope=(), magnetometer=(), clipboard=(), document-domain=(), web-share=(), screen-orientation=(), xr-spatial-tracking=()">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=0; includeSubDomains">
+    <title>Shorty Maps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 800px; /* Adjust as needed */
+            margin: auto;
+            page-break-after: always; /* Ensures each printout starts on a new page */
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+        .map {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .map img {
+            max-width: 100%; /* Ensures the image fits within the container */
+            height: auto;
+            width: var(--map-width, 100%); /* Custom property for image width */
+        }
+        .directions {
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow wrapping for additional columns */
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .direction-column {
+            width: 48%; /* Adjust width for left and right columns */
+            margin-bottom: 20px;
+        }
+        .direction-column h2 {
+            font-size: 20px;
+        }
+        .direction-column p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+        }
+        @media print {
+            body {
+                margin: 0;
+            }
+            .container {
+                border: none;
+                padding: 0;
+            }
+            .direction-column {
+                font-size: 14px; /* Reduce font size for print */
+            }
+        }
+        @media print and (orientation: landscape) {
+            .map {
+                page-break-after: always; /* Ensure the map is on its own page */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Shorty Maps</h1>
+        <div class="map">
+            <img src="path/to/your/map-image.jpg" alt="Map Image" style="--map-width: 80%;"> <!-- Adjust width here -->
+        </div>
+        <div class="directions">
+            <div class="direction-column">
+                <h2>Directions - Column 1</h2>
+                <p>1. Start at [Starting Point].</p>
+                <p>2. Head [Direction] on [Street Name].</p>
+                <p>3. Continue for [Distance].</p>
+            </div>
+            <div class="direction-column">
+                <h2>Directions - Column 2</h2>
+                <p>4. Turn [Direction] onto [Next Street].</p>
+                <p>5. Your destination will be on the [Left/Right].</p>
+                <p>6. Additional notes can go here.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
