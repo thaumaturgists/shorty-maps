@@ -1,6 +1,6 @@
 # Shorty Maps
 
-![Shorty Maps Logo](./public/shorty%maps%logo.png) <!-- Replace with the actual path to your image -->
+![Shorty Maps Logo](./public/sml.png) <!-- Replace with the actual path to your image -->
 
 Shorty Maps is a simple, one-page printout template designed for map directions. It allows users to print a map along with clear, organized directions that adapt to both portrait and landscape orientations.
 
