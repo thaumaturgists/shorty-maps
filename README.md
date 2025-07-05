@@ -1,16 +1,12 @@
-# Shorty Maps
-
-![Shorty Maps Logo](./public/sml.png) <!-- Replace with the actual path to your image -->
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) <!-- Replace with actual badge links -->
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](VERSION) <!-- Replace with actual badge links -->
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](BUILD_STATUS) <!-- Replace with actual badge links -->
+<!-- Replace with the actual path to your image -->
+# <img src="./public/sml.png" alt="Shorty Maps Logo" style="width: 400px; height: auto;">
 
 Shorty Maps is a simple, one-page printout template designed for map directions. It allows users to print a map along with clear, organized directions that adapt to both portrait and landscape orientations.
 
 Currently, users can either have an agent fill in the column data or prompt the system to do so. Please keep in mind that adding columns and making adjustments may be necessary. Future enhancements aim to make this process easier and dynamically optimized.
-
-## Badges
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) <!-- Replace with actual badge links -->
-[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](VERSION) <!-- Replace with actual badge links -->
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](BUILD_STATUS) <!-- Replace with actual badge links -->
 
 ## Features
 
